@@ -77,7 +77,7 @@ class DualStackHTTPServer(ThreadingHTTPServer):
 import vpn_utils
 import proxy_server
 
-API_URL = "https://www.vpngate.net/api/iphone/"
+API_URL = "https://raw.githubusercontent.com/Vepashka94/vpngate-mirror/refs/heads/main/vpngate.csv"
 FETCH_INTERVAL_SECONDS = int(os.environ.get("FETCH_INTERVAL_SECONDS", "1260"))
 CHECK_INTERVAL_SECONDS = int(os.environ.get("CHECK_INTERVAL_SECONDS", "1260"))
 TARGET_VALID_NODES = int(os.environ.get("TARGET_VALID_NODES", "3"))
@@ -2673,8 +2673,8 @@ INDEX_HTML = r"""<!doctype html>
         <svg xmlns="http://www.w3.org/2000/svg" style="width:12px; height:12px; margin-left: 2px;" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
       </button>
       <div id="github_dropdown" class="dropdown-content">
-        <a href="https://github.com/baoweise-bot/aimili-vpngate" target="_blank">正式版</a>
-        <a href="https://github.com/baoweise-bot/aimili-vpngate/tree/bate" target="_blank">测试版</a>
+        <a href="https://github.com/owenxx10086/aimili-vpngate" target="_blank">正式版</a>
+        <a href="https://github.com/owenxx10086/aimili-vpngate/tree/bate" target="_blank">测试版</a>
       </div>
     </div>
     <a href="https://t.me/arestemple" target="_blank" class="btn-telegram">
