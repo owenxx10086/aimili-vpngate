@@ -48,7 +48,7 @@ echo -e "${BLUE}==========================================================${PLAI
 
 # 3. Configure GitHub Repository URL
 # Default to the official repository (/aimili-vpngate)
-DEFAULT_USER=""
+DEFAULT_USER="owenxx10086"
 DEFAULT_REPO="aimili-vpngate"
 
 # Allow custom repository override via command line arguments
